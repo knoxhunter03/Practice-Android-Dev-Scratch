@@ -36,6 +36,7 @@
 
     <Button
         android:id="@+id/buttonMakeItRain"
+        android:onClick="showMoney"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/make_it_rain"
