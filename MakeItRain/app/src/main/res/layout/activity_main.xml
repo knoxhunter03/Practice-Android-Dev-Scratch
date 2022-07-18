@@ -59,4 +59,16 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonMakeItRain"
         app:layout_constraintVertical_bias="0.098" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonMakeItRain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moneyValue"
+        app:layout_constraintVertical_bias="0.317" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
