@@ -30,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
 
                 // ***Do type casting and all inside the click method!****
-                int number = Integer.parseInt(numberValue.getText().toString());
-                int sum = 0, rem;
+                long number = Long.parseLong(numberValue.getText().toString());
+                long sum = 0, rem;
                 while(number > 0){
                     rem = number % 10;
                     sum = sum + rem;
