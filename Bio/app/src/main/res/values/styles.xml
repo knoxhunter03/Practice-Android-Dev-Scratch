@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="nameStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="generalStyle" parent="nameStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_Margin</item>
+        <item name="android:background">#00FFFFFF</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">@dimen/name_Padding</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="generalWidgetStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
